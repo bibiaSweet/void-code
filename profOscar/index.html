@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Índice de Personagens</title>
+
+</head>
+<body>
+    <h1>Elenco de Personagens</h1>
+    
+    <button onclick="inverterLista()">Inverter Array (reverse)</button>
+    <hr>
+
+    <div id="lista"></div>
+    
+    <hr>
+
+    <p>
+        Busca 1: 
+        <select id="seletor"></select>
+        <button onclick="buscarPorSelect()">Buscar por Seleção</button>
+    </p>
+
+    <p>
+        Busca 2: 
+        <input type="number" id="input-indice" min="0" placeholder="Índice">
+        <button onclick="buscarPorIndice()">Buscar por Índice</button>
+    </p>
+
+    <p>
+        Busca 3: 
+        <input type="text" id="input-nome" placeholder="Nome exato">
+        <button onclick="buscarPorNome()">Buscar por Nome</button>
+    </p>
+
+    <p>
+        Busca 4: 
+        <input type="text" id="input-filtro" placeholder="Parte do nome">
+        <button onclick="filtrarPersonagens()">Filtrar</button>
+    </p>
+
+    <hr>
+    
+    <h3>Console / Resultado:</h3>
+    <p id="resultado">Aguardando interação...</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

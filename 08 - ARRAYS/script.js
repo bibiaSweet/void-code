@@ -14,7 +14,7 @@ const nomes = [
   "Bilu",
   "Waldisney",
   "Tião"    
-];
+]; 
 
 let idades = [22, 33, 32]
 
